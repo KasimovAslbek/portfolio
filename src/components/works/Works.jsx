@@ -59,7 +59,7 @@ export default function Works() {
     <div id='works' className='h-[500px] md:h-[650px] bg-red-600 flex items-center justify-center  snap-start relative'>
       <div className='h-[550px] flex absolute left-[-100vw] ease-out duration-1000' style={{transform: `translateX(-${currentSlide *100}vw)`}}>
         {data.map((d) => ( <div className='w-screen flex items-center justify-center'>
-          <div className='w-9/12 md:h-5/6  flex items-center justify-center bg-white rounded my-28'>
+          <div className='max-w-7xl mx-auto w-9/12 md:h-5/6  flex items-center justify-center bg-white rounded my-28'>
               <div className='w-1/3 md:h-[80%] flex items-center justify-center '>
                 <div className='w-[90%] h-[70%] flex flex-col justify-between'>
                   <div className='w-10 h-10 rounded-full bg-orange-300 flex items-center justify-center'>
